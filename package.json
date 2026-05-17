@@ -53,11 +53,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/knowledge-dna/kdna.git"
+    "url": "https://github.com/knowledge-dna/KDNA.git"
   },
-  "homepage": "https://github.com/knowledge-dna/kdna#readme",
+  "homepage": "https://github.com/knowledge-dna/KDNA#readme",
   "bugs": {
-    "url": "https://github.com/knowledge-dna/kdna/issues"
+    "url": "https://github.com/knowledge-dna/KDNA/issues"
   },
   "engines": {
     "node": ">=18"
