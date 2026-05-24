@@ -47,8 +47,8 @@ curl -fsSL https://aikdna.com/install | bash
 或手动：
 
 ```bash
-npm install -g @knowledge-dna/kdna
+npm install -g @aikdna/kdna
 kdna install writing
 ```
 
-然后从 [kdna-skills](https://github.com/knowledge-dna/kdna-skills) 安装对应 Agent 的 loader skill。
+然后从 [kdna-skills](https://github.com/aikdna/kdna-skills) 安装对应 Agent 的 loader skill。

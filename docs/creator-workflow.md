@@ -192,7 +192,7 @@ kdna-validate <domain-dir>   # JSON Schema 合规
 ### 5.1 创建独立仓库
 
 ```bash
-gh repo create knowledge-dna/kdna-<domain-id> --public -d "<description>"
+gh repo create aikdna/kdna-<domain-id> --public -d "<description>"
 ```
 
 ### 5.2 仓库文件结构
@@ -217,7 +217,7 @@ kdna-<domain-id>/
 
 # kdna-<domain-id>
 
-[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0-4c1)](https://github.com/knowledge-dna/KDNA)
+[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0-4c1)](https://github.com/aikdna/kdna)
 
 **<Domain Name>** — <one-line description>
 
@@ -323,7 +323,7 @@ node scripts/validate-registry.js          # offline checks
 node scripts/validate-registry.js --remote # check kdna_url + sha256
 ```
 
-提 PR 到 `knowledge-dna/kdna-registry`，通过后用户即可 `kdna install @yourname/<domain-id>`。
+提 PR 到 `aikdna/kdna-registry`，通过后用户即可 `kdna install @yourname/<domain-id>`。
 
 ### 5.5 更新网站 Domains 页
 
@@ -333,7 +333,7 @@ node scripts/validate-registry.js --remote # check kdna_url + sha256
 
 ```bash
 git add -A && git commit -m "Initial commit: kdna-<domain-id> v0.1.0"
-git remote add origin git@github.com:knowledge-dna/kdna-<domain-id>.git
+git remote add origin git@github.com:aikdna/kdna-<domain-id>.git
 git push -u origin main
 ```
 

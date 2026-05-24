@@ -71,7 +71,7 @@ npm install -g @aikdna/kdna-cli
 kdna install @aikdna/writing
 ```
 
-Then install the `kdna-loader` skill for your agent from [kdna-skills](https://github.com/knowledge-dna/kdna-skills).
+Then install the `kdna-loader` skill for your agent from [kdna-skills](https://github.com/aikdna/kdna-skills).
 
 ## What's NOT installed as a skill
 

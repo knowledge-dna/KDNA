@@ -2,9 +2,9 @@
 
 > [中文版](./registry-policy.zh.md)
 
-This document defines the criteria a domain KDNA repository must meet to be listed in the canonical [kdna-registry](https://github.com/knowledge-dna/kdna-registry).
+This document defines the criteria a domain KDNA repository must meet to be listed in the canonical [kdna-registry](https://github.com/aikdna/kdna-registry).
 
-KDNA is a **protocol**, not a content library. The main repository ([KDNA](https://github.com/knowledge-dna/KDNA)) defines the standard. Domain repositories encode domain judgment. The registry is the link between them — it is a curated index, not an automatic listing.
+KDNA is a **protocol**, not a content library. The main repository ([KDNA](https://github.com/aikdna/kdna)) defines the standard. Domain repositories encode domain judgment. The registry is the link between them — it is a curated index, not an automatic listing.
 
 The `KDNA/examples/` and `KDNA/registry/` directories are protocol fixtures. They are not the official domain catalog.
 
@@ -85,7 +85,7 @@ Access mode is a separate field:
 
 ## Adding a Domain
 
-1. Create a public GitHub repository under `knowledge-dna/` with the naming convention `kdna-<domain>`.
+1. Create a public GitHub repository under `aikdna/` with the naming convention `kdna-<domain>`.
 2. Ensure it meets all inclusion criteria above.
 3. Open a pull request to the `kdna-registry` repository that adds an entry to `domains.json`.
 4. The PR description must include a brief summary of the domain, its boundary, and a statement confirming compliance with the criteria.

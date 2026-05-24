@@ -15,7 +15,7 @@ Every domain README must answer these four questions:
 
 | Requirement | Minimum | Reference (kdna-writing) |
 |-------------|---------|---------------------------|
-| **README** | Answers four questions | [kdna-writing README](https://github.com/knowledge-dna/kdna-writing) |
+| **README** | Answers four questions | [kdna-writing README](https://github.com/aikdna/kdna-writing) |
 | **Evals** | At least 10 test cases | `kdna-writing/evals/` — 10 cases |
 | **Demo** | Before/after comparison | `kdna-writing/demo/` |
 | **kdna.json** | Complete manifest with all metadata | `kdna-writing/kdna.json` |
@@ -74,7 +74,7 @@ When publishing a new official domain, verify:
 
 ## kdna-writing as the Gold Standard
 
-[kdna-writing](https://github.com/knowledge-dna/kdna-writing) is the reference implementation. Every new official domain should be compared against it:
+[kdna-writing](https://github.com/aikdna/kdna-writing) is the reference implementation. Every new official domain should be compared against it:
 
 | Aspect | kdna-writing |
 |--------|-------------|

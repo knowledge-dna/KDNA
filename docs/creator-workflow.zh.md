@@ -71,7 +71,7 @@ Core + Patterns 没有改变 Agent 判断之前，不要急着补可选文件。
 registry 条目必须指向独立仓库：
 
 ```text
-https://github.com/knowledge-dna/kdna-<domain>
+https://github.com/aikdna/kdna-<domain>
 ```
 
 不能指向 `KDNA/examples/*`。

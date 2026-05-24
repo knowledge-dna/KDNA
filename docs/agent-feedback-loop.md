@@ -293,7 +293,7 @@ Once validated and regression-tested, the new domain version is deployed.
 
 **To registry:**
 ```bash
-kdna publish ./decision_state --release-tag v0.7.2 --repo knowledge-dna/kdna-decision_state
+kdna publish ./decision_state --release-tag v0.7.2 --repo aikdna/kdna-decision_state
 ```
 
 **To agent runtime:**

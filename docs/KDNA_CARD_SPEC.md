@@ -45,7 +45,7 @@ The KDNA Card serves the same role as a model card in machine learning: it helps
   "review_status": "community",
   "requires_expert_review": false,
   "provenance": {
-    "studio_core": "knowledge-dna/kdna-studio",
+    "studio_core": "aikdna/kdna-studio",
     "studio_core_version": "0.6.0",
     "build_id": "build_xxx",
     "content_fingerprint": "sha256:xxx",

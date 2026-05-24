@@ -9,10 +9,10 @@
 **推荐：一键安装**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aikdna/kdna-skills/main/install.sh | bash
 ```
 
-这会自动检测你安装的 Agent 并完成配置。详见 [kdna-skills](https://github.com/knowledge-dna/kdna-skills)。
+这会自动检测你安装的 Agent 并完成配置。详见 [kdna-skills](https://github.com/aikdna/kdna-skills)。
 
 **手动安装（OpenCode）：**
 
@@ -29,7 +29,7 @@ cp skills/kdna-create/SKILL.md ~/.agents/skills/kdna-create/SKILL.md
 mkdir -p ~/.agents/Kdna
 ```
 
-从官方 [kdna-registry](https://github.com/knowledge-dna/kdna-registry) 添加领域，或创建自己的。
+从官方 [kdna-registry](https://github.com/aikdna/kdna-registry) 添加领域，或创建自己的。
 
 ## 3. 创建你的第一个领域
 
