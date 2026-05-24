@@ -2,7 +2,7 @@
 
 # [Your domain name]
 
-[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0-4c1)](https://github.com/knowledge-dna/KDNA)
+[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0-4c1)](https://github.com/aikdna/KDNA)
 
 **[Domain Title]** — [one-sentence description, same as kdna.json.description]
 

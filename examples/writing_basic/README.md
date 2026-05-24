@@ -23,7 +23,7 @@ npm i -g @aikdna/kdna
 kdna install writing-basic
 
 # via kdna-skills installer
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aikdna/kdna-skills/main/install.sh | bash
 ```
 
 ## Usage
@@ -61,6 +61,6 @@ Whether a piece of writing is clear, reader-focused, and structurally coherent â
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-writing_basic
+kdna install github:aikdna/kdna-writing_basic
 kdna validate .
 ```

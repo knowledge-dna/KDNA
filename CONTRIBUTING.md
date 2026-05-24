@@ -12,13 +12,13 @@ This repository is the KDNA protocol specification. You can contribute at multip
 ### Developer Setup
 
 ```bash
-git clone https://github.com/knowledge-dna/KDNA.git
+git clone https://github.com/aikdna/KDNA.git
 cd KDNA
 npm install
 npm test         # kdna-core unit tests
 ```
 
-For CLI development, see the [kdna-cli](https://github.com/knowledge-dna/kdna-cli) repository.
+For CLI development, see the [kdna-cli](https://github.com/aikdna/kdna-cli) repository.
 
 ### Available Scripts
 

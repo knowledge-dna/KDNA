@@ -56,6 +56,6 @@ Whether a manager's diagnosis, intervention, or delegation decision addresses th
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-management_basic
+kdna install github:aikdna/kdna-management_basic
 kdna validate .
 ```

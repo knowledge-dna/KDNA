@@ -11,7 +11,7 @@
   "description": "Judgment layer for short-video subtitles: tone, rhythm, audience adaptation, and brand voice — not transcription mechanics.",
   "keywords": ["subtitle", "short-video", "tone", "audience", "brand-voice", "rhythm"],
   "core_insight": "Subtitles are editorial decisions, not transcription. Every line break, word choice, and pacing decision is a creative judgment that affects how the audience feels about the content.",
-  "registry": { "repo": "knowledge-dna/kdna-short_video_subtitle" },
+  "registry": { "repo": "aikdna/kdna-short_video_subtitle" },
   "created": "2026-05-23",
   "updated": "2026-05-23"
 }

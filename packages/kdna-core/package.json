@@ -27,13 +27,12 @@
     "kdna",
     "kdna-core",
     "ai-agent",
-    "domain-cognition",
-    "knowledge-dna"
+    "domain-cognition"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knowledge-dna/KDNA.git",
+    "url": "git+https://github.com/aikdna/KDNA.git",
     "directory": "packages/kdna-core"
   },
   "homepage": "https://aikdna.com",

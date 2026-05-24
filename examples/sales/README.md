@@ -54,6 +54,6 @@ Whether a sales interaction is diagnosis-first and trust-building — or pitch-f
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-sales
+kdna install github:aikdna/kdna-sales
 kdna validate .
 ```

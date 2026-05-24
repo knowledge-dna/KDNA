@@ -41,7 +41,7 @@ Whether a meeting, discussion, or planning session has produced an actionable de
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-decision_state
+kdna install github:aikdna/kdna-decision_state
 kdna validate .
 ```
 

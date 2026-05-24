@@ -57,6 +57,6 @@ Whether a talk, presentation, or speech is audience-focused, single-messaged, an
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-speaking_basic
+kdna install github:aikdna/kdna-speaking_basic
 kdna validate .
 ```

@@ -2,9 +2,9 @@
 
 This directory contains protocol fixtures and integration demos for the KDNA specification.
 
-These examples are not the official domain registry and should not be treated as the canonical source for domain packages. Official public domains live in standalone repositories under `knowledge-dna/` and are listed in the canonical registry:
+These examples are not the official domain registry and should not be treated as the canonical source for domain packages. Official public domains live in standalone repositories under `aikdna/` and are listed in the canonical registry:
 
-https://github.com/knowledge-dna/kdna-registry
+https://github.com/aikdna/kdna-registry
 
 Use examples here only for:
 

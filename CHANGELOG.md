@@ -28,7 +28,7 @@
 ### Website
 
 - **Domains page** (`/en/domains`): 7 domain cards (6 new + decision_state) with install commands
-- **Homepage**: install examples updated to `kdna install github:knowledge-dna/kdna-writing`
+- **Homepage**: install examples updated to `kdna install github:aikdna/kdna-writing`
 - **Docs**: all `writing-basic` references replaced with `writing` across EN/ZH docs
 
 ### Infrastructure
@@ -132,7 +132,7 @@
 - Validator: Excludes `kdna.json` from domain file count
 - `kdna install`: 3-strategy fallback (HTTPS clone → SSH → tarball download)
 - `validate-ecosystem.sh`: Rewritten for v0.2 registry format with `--local-only` flag
-- Package renamed to `@aikdna/kdna` as primary; `@knowledge-dna/kdna` as mirror
+- Package renamed to `@aikdna/kdna` as primary; `@aikdna/kdna` as mirror
 
 ### Fixed
 - Registry format: Object with `registry_version` and `domains` array (was flat array)

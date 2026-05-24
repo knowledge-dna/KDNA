@@ -68,6 +68,6 @@ Whether a product decision (feature, priority, scope) is reversible, user-value-
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-product_decision
+kdna install github:aikdna/kdna-product_decision
 kdna validate .
 ```

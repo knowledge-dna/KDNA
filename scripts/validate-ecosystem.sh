@@ -91,12 +91,7 @@ else
   warn "specs/ directory not found"
 fi
 
-if [ -f "src/cli.js" ]; then
-  pass "CLI entry point (src/cli.js) present"
-else
-  fail "CLI entry point (src/cli.js) missing"
-  FAILURES=$((FAILURES + 1))
-fi
+# CLI has moved to a separate repo (kdna-cli); not checked here.
 
 echo ""
 
@@ -161,10 +156,10 @@ for repo_url in $DOMAINS; do
   fi
 
   # Check repo exists on GitHub
-  if curl -sI --connect-timeout 5 "https://github.com/knowledge-dna/$repo_name" 2>/dev/null | grep -q "200 OK"; then
+  if curl -sI --connect-timeout 5 "https://github.com/aikdna/$repo_name" 2>/dev/null | grep -q "200 OK"; then
     pass "Repo exists: $repo_name"
   else
-    # Try as a standalone repo name (not under knowledge-dna org)
+    # Try as a standalone repo name (not under aikdna org)
     if curl -sI --connect-timeout 5 "$repo_url" 2>/dev/null | grep -q "200 OK"; then
       pass "Repo exists: $repo_name"
     else
@@ -184,10 +179,10 @@ for repo_url in $DOMAINS; do
   cloned=false
 
   # Try HTTPS clone first (CI-friendly)
-  if git clone --depth 1 "https://github.com/knowledge-dna/${repo_name}.git" "$clone_dir" 2>/dev/null; then
+  if git clone --depth 1 "https://github.com/aikdna/${repo_name}.git" "$clone_dir" 2>/dev/null; then
     cloned=true
   # Fallback: SSH
-  elif git clone --depth 1 "git@github.com:knowledge-dna/${repo_name}.git" "$clone_dir" 2>/dev/null; then
+  elif git clone --depth 1 "git@github.com:aikdna/${repo_name}.git" "$clone_dir" 2>/dev/null; then
     cloned=true
   fi
 
@@ -212,15 +207,15 @@ if $LOCAL_ONLY; then
 else
   for tool_repo in kdna-skills; do
     echo "  $tool_repo..."
-    if curl -sI --connect-timeout 5 "https://github.com/knowledge-dna/$tool_repo" 2>/dev/null | grep -q "200 OK"; then
+    if curl -sI --connect-timeout 5 "https://github.com/aikdna/$tool_repo" 2>/dev/null | grep -q "200 OK"; then
       pass "Repo exists: $tool_repo"
 
       if ! $NO_CLONE; then
         clone_dir="$TMP_DIR/$tool_repo"
         cloned=false
-        if git clone --depth 1 "https://github.com/knowledge-dna/${tool_repo}.git" "$clone_dir" 2>/dev/null; then
+        if git clone --depth 1 "https://github.com/aikdna/${tool_repo}.git" "$clone_dir" 2>/dev/null; then
           cloned=true
-        elif git clone --depth 1 "git@github.com:knowledge-dna/${tool_repo}.git" "$clone_dir" 2>/dev/null; then
+        elif git clone --depth 1 "git@github.com:aikdna/${tool_repo}.git" "$clone_dir" 2>/dev/null; then
           cloned=true
         fi
 

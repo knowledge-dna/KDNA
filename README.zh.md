@@ -13,8 +13,8 @@ KDNA 之于 Agent 的判断力，如同 DNA 之于生物的认知架构：它编
 KDNA 不是提示词库，不是知识库，也不是操作手册。它是一种结构化方式，封装一个领域的判断层：公理、术语边界、常见误解、场景信号、推理链条和能力演进。
 
 > **本仓库仅定义 KDNA 协议、Schema、校验规则与治理方式。**  
-> 具体领域的 KDNA 应放在[独立仓库](#领域仓库)中，符合收录标准后进入官方 [kdna-registry](https://github.com/knowledge-dna/kdna-registry)。
-> 安装 KDNA 到你的 Agent，使用 [kdna-skills](https://github.com/knowledge-dna/kdna-skills)。  
+> 具体领域的 KDNA 应放在[独立仓库](#领域仓库)中，符合收录标准后进入官方 [kdna-registry](https://github.com/aikdna/kdna-registry)。
+> 安装 KDNA 到你的 Agent，使用 [kdna-skills](https://github.com/aikdna/kdna-skills)。  
 > 添加领域到注册表的标准详见 [docs/registry-policy.md](./docs/registry-policy.md)。
 
 ## 为什么现在需要 KDNA
@@ -56,7 +56,7 @@ KDNA 不是提示词库，不是知识库，也不是操作手册。它是一种
 
 详见 [`docs/kdna-in-action.md`](./docs/kdna-in-action.md)（英文），包含五个详细案例：相同输入，不同 KDNA 领域，完全不同的认知路径。
 
-## KDNA vs Skill
+## KDNA 与 Skill 的关系
 
 | 维度 | KDNA | Skill |
 |---|---|---|
@@ -118,7 +118,7 @@ kdna --help
 或克隆仓库：
 
 ```bash
-git clone https://github.com/knowledge-dna/KDNA.git
+git clone https://github.com/aikdna/KDNA.git
 cd KDNA
 npm install
 npm run lint:examples
@@ -188,16 +188,16 @@ node examples/minimal-agent/agent.js
 
 ## 领域仓库
 
-领域认知包存放在独立仓库中。官方机器可读索引见 [knowledge-dna/kdna-registry](https://github.com/knowledge-dna/kdna-registry)。
+领域认知包存放在独立仓库中。官方机器可读索引见 [aikdna/kdna-registry](https://github.com/aikdna/kdna-registry)。
 
 | 领域 | 仓库 | 状态 |
 |---|---|---|
-| Writing | [kdna-writing](https://github.com/knowledge-dna/kdna-writing) | experimental |
-| Knowledge Management | [kdna-knowledge_management](https://github.com/knowledge-dna/kdna-knowledge_management) | experimental |
-| Prompt Diagnosis | [kdna-prompt_diagnosis](https://github.com/knowledge-dna/kdna-prompt_diagnosis) | experimental |
-| Agent Safety Judgment | [kdna-agent_safety](https://github.com/knowledge-dna/kdna-agent_safety) | experimental |
-| Open-source Project | [kdna-open_source_project](https://github.com/knowledge-dna/kdna-open_source_project) | experimental |
-| Content Strategy | [kdna-content_strategy](https://github.com/knowledge-dna/kdna-content_strategy) | experimental |
+| Writing | [kdna-writing](https://github.com/aikdna/kdna-writing) | experimental |
+| Knowledge Management | [kdna-knowledge_management](https://github.com/aikdna/kdna-knowledge_management) | experimental |
+| Prompt Diagnosis | [kdna-prompt_diagnosis](https://github.com/aikdna/kdna-prompt_diagnosis) | experimental |
+| Agent Safety Judgment | [kdna-agent_safety](https://github.com/aikdna/kdna-agent_safety) | experimental |
+| Open-source Project | [kdna-open_source_project](https://github.com/aikdna/kdna-open_source_project) | experimental |
+| Content Strategy | [kdna-content_strategy](https://github.com/aikdna/kdna-content_strategy) | experimental |
 
 ### 参考示例
 
@@ -224,7 +224,7 @@ node examples/minimal-agent/agent.js
 
 | 工具 | 仓库 | 说明 |
 |---|---|---|
-| Skills | [kdna-skills](https://github.com/knowledge-dna/kdna-skills) | kdna-loader 技能 + CLI 安装器，支持所有主流 Agent |
+| Skills | [kdna-skills](https://github.com/aikdna/kdna-skills) | kdna-loader 技能 + CLI 安装器，支持所有主流 Agent |
 
 ## 中文资源
 

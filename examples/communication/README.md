@@ -31,6 +31,6 @@ Whether a message is clear, listener-focused, and actionable — or verbose, sel
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-communication
+kdna install github:aikdna/kdna-communication
 kdna validate .
 ```

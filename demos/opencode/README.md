@@ -24,7 +24,7 @@ npm i -g @aikdna/kdna
 kdna install sales
 
 # 3. Install skills for OpenCode
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aikdna/kdna-skills/main/install.sh | bash
 
 # 4. Start OpenCode and try:
 #    "Use kdna-loader. The client says our price is too high. How should I respond?"

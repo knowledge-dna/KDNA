@@ -52,7 +52,7 @@ registered KDNA domains.
       "id": "writing",
       "name": "Writing KDNA",
       "version": "0.1.0",
-      "repo": "https://github.com/knowledge-dna/kdna-writing",
+      "repo": "https://github.com/aikdna/kdna-writing",
       "spec_version": "1.0-rc",
       "status": "experimental",
       "access": "open",
@@ -193,7 +193,7 @@ License:     CC-BY-4.0
 Description: Domain cognition for high-trust writing judgment.
 Core:        Price objections are certainty deficits, not price problems.
 Files:       6 (KDNA_Core, KDNA_Patterns, Scenarios, Cases, Reasoning, Evolution)
-Repo:        https://github.com/knowledge-dna/kdna-writing
+Repo:        https://github.com/aikdna/kdna-writing
 ```
 
 ### 5.3 List
@@ -209,7 +209,7 @@ kdna list --outdated   # List domains with available updates
 ```bash
 kdna install writing
 kdna install writing@0.1.0
-kdna install --from-git https://github.com/knowledge-dna/kdna-writing
+kdna install --from-git https://github.com/aikdna/kdna-writing
 kdna install --from-url https://example.com/writing-0.1.0.kdnapack.tar.gz
 kdna install --from-path ./my-local-domain
 ```
@@ -318,7 +318,7 @@ kdna update                  # Update all installed domains
 
 ## 11. GitHub Organization Integration
 
-Domains published under the `knowledge-dna` GitHub organization are automatically
+Domains published under the `aikdna` GitHub organization are automatically
 discoverable. The registry index is generated from:
 
 1. Repository topics: `kdna-domain`, `kdna-open`, `kdna-basic`

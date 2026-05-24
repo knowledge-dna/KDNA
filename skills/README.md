@@ -1,6 +1,6 @@
 # skills/
 
-> **Source of truth:** [kdna-skills](https://github.com/knowledge-dna/kdna-skills) repository.
+> **Source of truth:** [kdna-skills](https://github.com/aikdna/kdna-skills) repository.
 > The copy in this directory is an **offline fallback** for `kdna setup`
 > when GitHub is unreachable. It is kept in sync via release CI.
 
@@ -8,7 +8,7 @@
 
 `kdna setup` (and `ensureLoaderSkill` inside `kdna install`) tries to
 fetch the latest SKILL.md from
-`https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/kdna-loader/SKILL.md`.
+`https://raw.githubusercontent.com/aikdna/kdna-skills/main/kdna-loader/SKILL.md`.
 
 If the network is unavailable (corporate firewall, offline laptop, etc.)
 the npm package's bundled copy is used. This ensures `npm install -g

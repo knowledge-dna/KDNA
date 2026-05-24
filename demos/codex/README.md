@@ -19,7 +19,7 @@ Key elements injected into the agent's reasoning frame:
 ```bash
 npm i -g @aikdna/kdna
 kdna install sales
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash -- --codex
+curl -fsSL https://raw.githubusercontent.com/aikdna/kdna-skills/main/install.sh | bash -- --codex
 ```
 
 ## Before KDNA (no domain)

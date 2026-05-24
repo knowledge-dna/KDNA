@@ -43,7 +43,7 @@ if echo "$AGENTS" | grep -q "codex"; then
     cp /Users/AI/K/kdna-skills/kdna-create/SKILL.md ~/.codex/skills/kdna-create/
     echo "    ✓ kdna-loader and kdna-create installed"
   else
-    curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/aikdna/kdna-skills/main/install.sh | bash
   fi
 fi
 

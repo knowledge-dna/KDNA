@@ -11,7 +11,7 @@ setup(
     description="KDNA Python SDK — Load domain cognition for AI agents",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/knowledge-dna/KDNA",
+    url="https://github.com/aikdna/KDNA",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
